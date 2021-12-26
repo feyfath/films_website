@@ -1,0 +1,690 @@
+<template>
+  <div>
+    <div id="top">
+      <div class="logo">
+        <h1><a href="index.html">FULL FILM</a></h1>
+      </div>
+      <div id="top_right">
+        <a class="search_icon" href="#"
+          ><span class="search_icon"><i class="fas fa-search"></i></span
+        ></a>
+        <input
+          class="search"
+          type="search"
+          title="search me :)"
+          placeholder="  SEARCH ANYTHING!"
+        />
+        <a href="#"
+          ><span id="menu_icon"><i class="fa fa-bars"></i></span
+        ></a>
+        <div class="dropdown1">
+          <button class="join_button">
+            <span class="join_us">SIGN IN</span
+            ><i class="fa fa-hand-o-down x2"></i>
+          </button>
+
+          <div class="dropdown1_links">
+            <a href="#">SIGN UP</a>
+            <a href="#">LOG IN</a>
+          </div>
+        </div>
+
+        <div class="dropdown2">
+          <button class="join_button">
+            <span class="join_us">SIGN UP</span
+            ><i class="fa fa-hand-o-down x2"></i>
+          </button>
+
+          <div class="dropdown2_links">
+            <a href="#">SIGN UP</a>
+            <a href="#">LOG IN</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--***********this is end of imported header**********************************************-->
+    <div class="full">
+      <div class="left_watch">
+        <div class="inner_left">
+          <ul class="categories">
+            <a href="#"><li>romance</li></a>
+            <a href="#"><li>action</li></a>
+            <a href="#"><li>war</li></a>
+            <a href="#"><li>comedie</li></a>
+            <a href="#"><li>Horror</li></a>
+            <a href="#"><li>fission</li></a>
+            <a href="#"><li>blood</li></a>
+          </ul>
+        </div>
+      </div>
+      <div class="infos_main">
+        <div class="info_inner">
+          <div class="image"></div>
+          <div class="title">
+            <h2 class="info_name">
+              The Matrix Resurrections FULL MOVIE HD (2021)
+            </h2>
+          </div>
+          <div class="infos">
+            <table class="movieTable">
+              <tbody>
+                <tr>
+                  <td>LANGUAGE:</td>
+                  <td>English [USA]</td>
+                </tr>
+                <tr>
+                  <td>GENRE:</td>
+                  <td>Romance</td>
+                </tr>
+                <tr>
+                  <td>REVIEW:</td>
+                  <td>8.5</td>
+                </tr>
+                <tr>
+                  <td>DURATION:</td>
+                  <td>01:31:15</td>
+                </tr>
+                <tr>
+                  <td>QUALITY:</td>
+                  <td>Web DL</td>
+                </tr>
+                <tr>
+                  <td>CATEGORIE:</td>
+                  <td>Animation</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="right_watch">
+        <div class="sticked_right">
+          <div class="inner_right">
+            <a href="#"
+              ><span class="night_icon"><i class="fas fa-sun"></i></span
+            ></a>
+            <a href="#"
+              ><span class="home_icon"> <i class="fas fa-home"></i></span
+            ></a>
+            <a href="#"
+              ><span class="twitter_icon"><i class="fab fa-twitter"></i></span
+            ></a>
+            <a href="#"
+              ><span class="fav_icon"> <i class="fas fa-heart"></i></span
+            ></a>
+            <a href="#"
+              ><span class="facebook_icon"><i class="fab fa-facebook"></i></span
+            ></a>
+            <a href="#"
+              ><span class="caret_icon"><i class="fas fa-caret-up"></i></span
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="trailer_video">
+        <div class="official">
+          The Matrix Resurrections - Official Trailer 1:
+        </div>
+        <iframe
+          class="trailer"
+          width="1190"
+          height="669"
+          src="https://www.youtube.com/embed/9ix7TUGVYIo"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="film_main">
+      <h1 style="text-align:center;">The Matrix Resurrections FULL MOVIE HD (2021)</h1>
+        <iframe  class="main_video" width="100%" height="500" scrolling="no" frameborder="0" src="https://mixdrop.co/e/3nko9repsgv38k" allowfullscreen="allowfullscreen" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+      </div>
+      <div class="download_main">
+        <button class="download_button" style="vertical-align: middle">
+          <span> Download </span></button
+        ><button class="watch_button" style="vertical-align: middle">
+          <span> Watch Now</span>
+        </button>
+      </div>
+      <div class="similar_main">
+        <div class="inner_similar">
+          <img :src="require('../assets/The Matrix Resurrections.jpg')" />
+          <img :src="require('../assets/The Matrix Resurrections.jpg')" />
+          <img :src="require('../assets/The Matrix Resurrections.jpg')" />
+          <img :src="require('../assets/The Matrix Resurrections.jpg')" />
+          <img :src="require('../assets/The Matrix Resurrections.jpg')" />
+          <img :src="require('../assets/The Matrix Resurrections.jpg')" />
+          <img :src="require('../assets/The Matrix Resurrections.jpg')" />
+          <img :src="require('../assets/The Matrix Resurrections.jpg')" />
+          <img :src="require('../assets/The Matrix Resurrections.jpg')" />
+          <img :src="require('../assets/The Matrix Resurrections.jpg')" />
+        </div>
+        <span class="related_title"></span>
+        <h1 class="related_word">RELATED</h1>
+      </div>
+      <div class="footer_watch"></div>
+    </div>
+  </div>
+</template>
+<style scoped>
+/* this is latest films's CSS page  */
+a {
+    text-decoration: none;
+}
+
+.full {
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 5rem;
+    z-index: 0;
+    grid-template-columns: [rightc]auto [middlec]auto [leftc]58px;
+    grid-template-rows: [infos]350px [trailer]405px [film]590px [download]102px [related]250px [footer]100px;
+    grid-gap: 12px;
+}
+.header {
+    background-color: rgb(8, 212, 212);
+    grid-column: 1/4;
+    position: fixed;
+    top: 0px;
+    display: block;
+}
+.left_watch {
+    grid-column: 1/2;
+    grid-row: 1/6;
+}
+.right_watch {
+    grid-column: 3/4;
+    grid-row: 1/6;
+}
+.footer_watch {
+    grid-column: 1/4;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgba(248, 244, 244, 0);
+    border: 1px solid #989898;
+    box-shadow: 3px 1px 5px #6770d8;
+}
+/*this is start of imported header style +edits */
+#top {
+    top: 0%;
+    position: fixed;
+    width: 100%;
+    border-right: 0px solid #454545;
+    right: 0px;
+    z-index: 1;
+    background: #fffefe;
+    height: 74px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 4px;
+    box-shadow: -1px 2px 7px -2px;
+}
+
+#top_right {
+    position: relative;
+    width: 100%;
+    right: 75px;
+    top: -49px;
+}
+.all_categories{
+    font-size: 2vw;
+}
+	.fa{
+		position:relative;
+		left:6px;
+}
+span.join_us {
+    font-size: 2vw;
+}
+.dropdown1 {
+    position: absolute;
+    width: 10%;
+    top: 3px;
+    left: 88%;
+}
+.dropdown2 {
+    position: absolute;
+    width: 10%;
+    top: 3px;
+    left: 77%;
+}
+button.join_button {
+    position: relative;
+    width: 100%;
+    color: #0f76f7;
+    font-size: 17px;
+    font-weight: 600;
+    background: #e8e5e5;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 42px;
+}
+i.fa.fa-caret-down {
+    position: relative;
+    PADDING: 0 10%;
+    left: 3%;
+}
+.dropdown1_links a:hover {
+    background-color: #0000000d;
+}
+.dropdown2_links a:hover {
+    background-color: #0000000d;
+}
+.dropdown1_links a {
+    display: table;
+    position: relative;
+    width: -webkit-fill-available;
+    padding: 10px;
+    color: red;
+}
+.dropdown2_links a {
+    display: table;
+    position: relative;
+    width: -webkit-fill-available;
+    padding: 10px;
+    color: red;
+}
+.logo:hover {
+    border: 8px double cyan;
+}
+.dropdown1_links {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 99px;
+    border-radius: 9px;
+    z-index: 1;
+    left: 5px;
+}
+.dropdown2_links {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    border-radius: 9px;
+    left: 5px;
+}
+.dropdown1:hover .dropdown1_links{
+	display:table;
+}
+.dropdown2:hover .dropdown2_links{
+	display:table;
+}
+input.search:hover {
+    width: 50%;
+    left: 25%;
+    height: 52px;
+    top: -5px;
+}
+button.join_button:hover {
+    height: 38px;
+    background: #c0fbfb;
+    box-shadow: 1px 1px #555ed0;
+    font-size: 1.5vw;
+    top: 2px;
+    width: 102%;
+}
+#menu_icon {
+    position: absolute;
+    left: 100%;
+    top: -12px;
+    color: black;
+    font-size: -webkit-xxx-large;
+    border-bottom-right-radius: 4px;
+    background-color: #e8e5e5;
+}
+#menu_icon:hover{
+    background-color: #c8c8cc;
+}
+.logo {
+    background: repeating-linear-gradient(45deg, #153c48, black 100px);
+    position: relative;
+    width: 17vw;
+    height: 3.4vw;
+    top: 3px;
+    left: 25px;
+    border-radius: 31px;
+    border: 8px double #00fff3d4;
+    box-shadow: 3px 4px 5px #3a3d3e;
+}
+span.join_us {
+    font-size: 0.97vw;
+    position: relative;
+}
+.logo h1 a {
+    position: relative;
+    display: block;
+    top: -20px;
+    left: 5%;
+    color: #0fc4c4;
+    font-size: 2.8vw;
+}
+.search {
+    position: absolute;
+    left: 25%;
+    top: -4px;
+    width: 50%;
+    box-shadow: 1px 3px 4px #00000082;
+    height: 50px;
+    border-radius: 11px;
+    padding-inline-start: 8%;
+    padding-inline-end: 10%;
+    border: 4px double #00afaf;
+    outline: none;
+}
+input[type="search"]::-webkit-search-cancel-button{
+    -webkit-appearance:none;
+
+}
+span.search_icon {
+    position: absolute;
+    left: 25.25%;
+    z-index: 1;
+    color:black;
+    border-right: 1px solid #00000038;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    overflow: hidden;
+    top: 0px;
+    padding: 0.32% 2.5%;
+    background-color: #d5d5d573;
+    font-size: 2vw;
+}
+::placeholder { /* Chrome/Opera/Safari */
+  color:blue;
+  font-size:20px;
+  line-height:19px;
+  opacity:0.3;
+  position:relative;
+  top:7%;
+}
+/*******************************end of imported edits***********************************/
+.infos_main {
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #989898;
+    box-shadow: 3px 1px 5px #6770d8;
+}
+.info_inner {
+    width: 100%;
+    background: rgba(127, 255, 212, 0);
+    height: 88%;
+    position: relative;
+}
+.info_name {
+    top: 0%;
+    position: relative;
+    font-size: 50px;
+    text-align: center;
+    color: #ece8e8;
+    text-shadow: 5px 3px 5px #8a8a8a, 2px -2px 0 #1b1b1b, -2px 2px 0 #909090, -2px -2px 0 #6b7778, 2px 0px 0 #909090, 0px 2px 0 #ffffff, -2px 0px 0 #4074b5, 0px -2px 0 #ffffff;
+}
+.image {
+    position: absolute;
+    width: 20.5%;
+    top: 19px;
+    left: 0;
+    border-radius: 0px 0px 2px 4px;
+    height: 288px;
+    content: url(../assets/The Matrix Resurrections.jpg);
+}
+.infos {
+    position: relative;
+    width: 79.2%;
+    left: 20.7%;
+    top: -41px;
+    height: 285px;
+}
+.title {
+    background: #726e6e17;
+    height: 60px;
+    width: 100%;
+    left: 1px;
+    border-bottom: 1px solid #747474;
+    border-radius: 5px 5px 0px 0px;
+    top: -41px;
+    position: relative;
+    box-shadow: 0px -1px 3px #877c7c;
+}
+
+.movieTable {
+    background-color: #f1f0f0;
+    width: 100%;
+    border-spacing: 8px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2vw;
+    height: 100%;
+}
+.movieTable td {
+    border: 1px solid rgba(179, 179, 179, 0.4);
+    color: #212121;
+    background: #f3f3f3;
+    text-shadow: 2px 2px 0 #ffffff00, 2px -2px 0 #b9b9b9, -2px 2px 0 #e2e2e2, -2px -2px 0 #70717200, 2px 0px 0 #564141, 0px 2px 0 #ffffff00, -2px 0px 0 #8e161600, 0px -2px 0 #4074b500;
+}
+.trailer{
+    position: relative;
+    top: 5px;
+    width: 100%;
+    border: 1px solid #02415f;
+    border-radius: 0px 0px 10px 10px;
+    height: 87%;
+}
+.trailer_video {
+    position: relative;
+    left: 22%;
+    width: 55%;
+    margin-top:2.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 3px 1px 5px #6770d8;
+}
+.official{
+    border-radius: 5px 5px 0 0;
+    font-size: 40px;
+    text-align: center;
+    height: 52px;
+    width: 100%;
+    font-variant: small-caps;
+    border: 1px solid #133942;
+    color: #e0e0e0;
+    background: #b7b4b4;
+    letter-spacing: 0.2em;
+    text-shadow: 0 1px 0 #aba9a9, 0 2px 0 #f1e0e0, 0 -1px 12px #7474bcb0, 1px -1px 0px #00000075, 0 1px 10px #535353, 0 6px 0 #24242400, 0 6px 0 #29caca6b, 0 6px 0 #595656, 0 11px 0 #00000000, 0 1px 30px rgba(255, 255, 255, 0.9);
+}
+.main_video{
+    border: 1px solid;
+}
+/*******************this is the left menu********************************/
+.inner_left{
+    position: sticky;
+    top: 85px;
+    z-index: 1;
+    border-radius: 5px 5px 5px 5px;
+}
+.inner_left ul  a {
+    display: flex;
+    flex-direction: row;
+    padding: 3vh;
+    align-items: center;
+    place-content: center;
+    transition: 0.5s;
+    position: relative;
+    border-radius: 0%;
+    border: 2px solid #d4d7f4;
+    font-size: 2.5vw;
+    background-color: #f2f2f2;
+    list-style: none;
+}
+ul.categories {
+        padding: 0;
+        position: relative;
+        background-color: #9c696903;
+        margin: 0;
+        height: 100%;
+}
+.inner_left > ul a:hover {
+    border-radius: 19px;
+    background: repeating-linear-gradient(51deg, #1fc0d09c, #b7aaaadb 57px);
+    transition: 0.8s cubic-bezier(0, 0, 0, 1.58);
+    padding: 15px 25px;
+    z-index: 1;
+}
+/******************************download div ********************************/
+.download_main {
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgba(248, 244, 244, 0);
+    border: 1px solid #0161e6;
+    margin-top:1rem;
+    box-shadow: -1px 3px 20px #6770d8;
+}
+.download_main button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #224eb1;
+    border: none;
+    box-shadow: 2px 2px 6px 2px #1b1a1a;
+    color: #FFFFFF;
+    font-size: 30px;
+    position: relative;
+    padding: 10px;
+    min-width: 212px;
+    padding-left: 51px;
+    width: 25%;
+    transition: 0.8s;
+    cursor: pointer;
+    margin: 29px;
+    top: -7px;
+    left: 19%;
+  }
+.download_main button:hover{
+             background-color: royalblue;
+             padding: 10px 17px;
+             padding-left: 13px;
+             transition: 0.8s cubic-bezier(0.25, 0.1, 0.45, 0.94);
+  }
+.main_button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.download_button span:after {
+    font-family: FontAwesome;
+    content: "\f061";
+    position: absolute;
+    opacity: 0;
+    top: 8px;
+    transition: 0.5s ease;
+    right: 15px;
+  }
+.watch_button span:after {
+    font-family: FontAwesome;
+    content: "\f06e";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 20px;
+    transition: 0.5s;
+  }
+.watch_button span {
+    padding-right: 25px;
+  }
+.download_button span {
+    padding-right: 25px;
+  }
+  
+.download_button:hover span:after{
+    opacity: 1;
+    right: 23px;
+    top: 16px;
+    transform: rotate(90deg);
+    transition: 0.6s ease-in-out;
+  }
+  .watch_button:hover span:after{
+    opacity: 1;
+    right: 20px;
+    top: 17px;
+    transform: rotate(180deg);
+    transition: 0.6s ease-in-out;
+  }
+/***********similar films*********************************/
+.similar_main {
+    position: relative;
+    width: 100%;
+    border: 1px solid #ffffff;
+    box-shadow: 1px 0px 8px #000000;
+}
+.inner_similar {
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+    position: absolute;
+}
+.related_title {
+    content: url("../assets/related title.png");
+    position: relative;
+    left: 39%;
+    filter: invert(1);
+    transform: rotate(0deg);
+    height: 60px;
+    top: -6px;
+    font-size: 40px;
+}
+.related_word {
+    position: absolute;
+    left: 43.3%;
+    top: -20px;
+    color: #FFFFFF;
+    font-size: 28px;
+    background: #2d2b2bfa;
+    text-shadow: 2px 2px 0 #9a9999, 0px 5px 6px #aba8a8;
+}
+/************************************The right side now********************************************************/
+.sticked_right {
+    position: sticky;
+    top: 90px;
+}
+.inner_right {
+    position: relative;
+    height: 100%;
+    background: #e0cccc;
+    box-shadow: 0px 2px 5px #2f2f2fd9;
+    border-radius: 6px;
+}
+i.fas.fa-home {
+    font-size: 32px;
+}
+
+.inner_right i {
+    display: table;
+    position: relative;
+    font-size: 36px;
+    color: #0066cc;
+    margin: 1px 0px;
+    padding: 30px 20% 30px 20%;
+    background-color: #e8e5e5;
+}
+.inner_right i:hover{
+    background-color: rgb(207, 210, 216);
+}
+i.fas.fa-sun {
+    border-radius: 5px 5px 0 0;
+    border-top: 1px solid #7d7d7d;
+    border-bottom: 1px solid lightgray;
+}
+i.fas.fa-caret-up {
+    padding: 4px 17px 6px 18px;
+    border-radius: 0 0 6px 6px;
+    border-bottom: 1px solid #8e8989;
+}
+.film_main {
+    border: 1px solid #989898;
+    box-shadow: 3px 1px 5px #6770d8;
+}
+i.fa.fa-bars {
+    padding: 13px 19px 12px 14px;
+    top: -2px;
+}
+</style>
